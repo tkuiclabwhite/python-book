@@ -14,7 +14,10 @@ jupyter-book build .
 ## 放到 GitHub Pages（免費 host 給學弟妹看）
 
 ```bash
-pip install ghp-import
+jupyter-book build .
+git add .
+git commit -m "新增章節內容"
+git push
 ghp-import -n -p -f _build/html
 ```
 
@@ -26,9 +29,6 @@ ghp-import -n -p -f _build/html
 _config.yml       # 書名、作者、執行設定
 _toc.yml          # 章節順序（目錄）
 intro.md          # 首頁
-ch1_variables.md  # 第一章：變數與資料型態
-ch2_loops.md      # 第二章：迴圈
-ch3_functions.md  # 第三章：函式
 ```
 
 ## 怎麼加新章節

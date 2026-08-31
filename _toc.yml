@@ -1,6 +1,9 @@
 format: jb-book
 root: intro
 chapters:
-  - file: ch1_variables
-  - file: ch2_loops
-  - file: ch3_functions
+  - file: ch2_types_variables_operators
+  - file: ch3_numbers_and_strings
+  - file: ch4_control_flow
+  - file: ch5_functions
+  - file: ch6_collections
+  - file: ch9_oop

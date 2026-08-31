@@ -8,7 +8,7 @@ execute:
 only_build_toc_files: true
 
 repository:
-  url: https://github.com/your-username/python-book
+  url: https://github.com/tkuiclabwhite/python-book
   branch: main
 
 html:
@@ -18,3 +18,4 @@ html:
 sphinx:
   config:
     language: zh_TW
+    smartquotes: false
