@@ -1,0 +1,20 @@
+title: 一步到位！Python 入門教學
+author: Yk / TKU IClab
+logo: ""
+
+execute:
+  execute_notebooks: force
+
+only_build_toc_files: true
+
+repository:
+  url: https://github.com/your-username/python-book
+  branch: main
+
+html:
+  use_repository_button: true
+  use_issues_button: true
+
+sphinx:
+  config:
+    language: zh_TW

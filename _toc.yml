@@ -1,0 +1,6 @@
+format: jb-book
+root: intro
+chapters:
+  - file: ch1_variables
+  - file: ch2_loops
+  - file: ch3_functions
